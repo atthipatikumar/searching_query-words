@@ -1,0 +1,9 @@
+<h1>Search Result of Data</h1>
+
+<ul>
+  {% for d in object_list %}
+    <li>
+      {{ d.name }}, {{ d.state_id }}
+    </li>
+  {% endfor %}
+</ul>
